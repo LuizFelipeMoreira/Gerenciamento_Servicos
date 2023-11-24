@@ -1,0 +1,28 @@
+@import  'colors'
+
+@mixin button()
+               padding: 20px 20px
+               font-size: 1.125rem
+               background: $branco
+               margin-right: 80px
+               border: none
+               border-radius: 20px
+               cursor: pointer
+
+               i
+                    margin-left: 50px
+                    background: $preto0
+                    font-size: 18px
+                    padding: 20px
+                    border-radius: 50%  
+                    color: $branco
+
+
+@mixin tablet()
+     @media  ( max-width: '660px')
+          @content
+
+
+          
+
+

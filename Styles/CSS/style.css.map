@@ -1,8 +1,1 @@
-{
-  "version": 3,
-  "sourceRoot": "",
-  "sources": [],
-  "names": [],
-  "mappings": "",
-  "file": "style.css"
-}
+{"version":3,"sourceRoot":"","sources":["../Sass/globalStyles.sass","../Sass/colors.sass","../Sass/style.sass","../Sass/mixins.sass"],"names":[],"mappings":"AAEA;EACK;EACA;EACA;;;AAEL;EACK,YCLE;EDMF,OCRI;;;ACGT;EACK;EACA;EACA;EACA;EACA;EACA;;AAEA;EACK;EACA;EACA;;;AAEV;EACK;EACA;EACA;EACA;;AAEA;EACK;EACA;EACA;EACA;;AAGA;EC3BK;EACA;EACA,YFLN;EEMM;EACA;EACA;EACA;;AAEA;EACK;EACA,YFZX;EEaW;EACA;EACA;EACA,OFjBX;;AEqBJ;EDSK;IAIU;IACA;IACA;;EAEA;IACK;IACA;IACA","file":"style.css"}
