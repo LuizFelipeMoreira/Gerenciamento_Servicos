@@ -2,36 +2,98 @@
 <html lang="en">
 
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-     <link rel="stylesheet" href="./Styles/CSS/style.css">
-     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./Styles/CSS/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-     <header>
-          <h1>BellaVision Serviços</h1>
-     </header>
+   <header>
+      <h1>BellaVision Serviços</h1>
+   </header>
 
-     <main>
-          <div class="content">
+   <main>
+      <div class="content">
 
-               <button>
-                    Adicionar Serviço
-                    <i class="fa-solid fa-plus"></i>
-               </button>
+         <button class="novoServico">
+            Adicionar Serviço
+            <i class="fa-solid fa-plus"></i>
+         </button>
 
-               <button>
-                    Serviços do dia
-                    <i class="fa-solid fa-magnifying-glass"></i>
-               </button>
-          </div>
-     </main>
+         <button class="consultarServico">
+            Serviços do dia
+            <i class="fa-solid fa-magnifying-glass"></i>
+         </button>
+      </div>
+      <div class="tabela">
+         <table border="2">
+            <thead>
+               <tr>
+                  <th>Nome</th>
+                  <th>Lente</th>
+                  <th>ida</th>
+                  <th>volta</th>
+                  <th>nº OS</th>
+                  <th>Situacao</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>Osvaldo</td>
+                  <td>Cr Ar</td>
 
-     <script src="./JS/index.js"></script>
-     <script src="https://kit.fontawesome.com/7a65fe82ac.js" crossorigin="anonymous"></script>
+                  <td>23/11</td>
+                  <td>23/11</td>
+                  <td>Pg001</td>
+                  <td>Pendente</td>
+               </tr>
+
+            </tbody>
+         </table>
+      </div>
+   </main>
+
+   <div class="modal-container">
+      <div class="modal-content">
+
+         <h1>Adicionar Novo servico</h1>
+
+         <form action="">
+
+            <div class="span-2">
+               <label for="nome">Nome</label>
+               <input type="text" id="nome" name="nome">
+            </div>
+
+            <div>
+               <label for="lente">Lente</label>
+               <input type="text" id="lente" name="lente">
+            </div>
+
+            <div>
+               <label for="nurmeroOS">Numero do Pedido</label>
+               <input type="text" id="numeroOS" name="lente">
+            </div>
+
+            <div>
+               <label for="DataIda">Data de Ida</label>
+               <input type="date" id="DataIda">
+            </div>
+
+            <div>
+               <label for="DataVolta">Data de volta</label>
+               <input type="date" id="DataVolta">
+            </div>
+            <button class="submit  span-2">Salvar</button>
+         </form>
+      </div>
+   </div>
+
+   <script src="./JS/index.js"></script>
+   <script src="https://kit.fontawesome.com/7a65fe82ac.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
