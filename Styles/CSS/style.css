@@ -127,6 +127,7 @@ main .content button i {
 }
 .modal-container .modal-content label {
   display: block;
+  margin-bottom: 5px;
 }
 .modal-container .modal-content input {
   padding: 8px;
