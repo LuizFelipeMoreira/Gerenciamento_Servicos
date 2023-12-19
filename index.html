@@ -40,7 +40,7 @@
                   <th>Situacao</th>
                </tr>
             </thead>
-            <tbody>
+            <tbody class="">
                <tr>
                   <td>Osvaldo</td>
                   <td>Cr Ar</td>
@@ -61,29 +61,29 @@
          <button class="buttonCloseModal">X</button>
          <h1>Adicionar Novo servico</h1>
 
-         <form action="">
+         <form action="" class="formModal">
 
-            <div class="span-2">
+            <div class="span-2" id="Nome">
                <label for="nome">Nome</label>
                <input type="text" id="nome" name="nome">
             </div>
 
-            <div>
+            <div id="Lente">
                <label for="lente">Lente</label>
                <input type="text" id="lente" name="lente">
             </div>
 
-            <div>
+            <div id="numeroPedido">
                <label for="nurmeroOS">Numero do Pedido</label>
                <input type="text" id="numeroOS" name="numeroPedido">
             </div>
 
-            <div>
+            <div id="Ida">
                <label for="DataIda">Data de Ida</label>
                <input type="date" id="DataIda">
             </div>
 
-            <div>
+            <div id="volta">
                <label for="DataVolta">Data de volta</label>
                <input type="date" id="DataVolta">
             </div>
@@ -92,7 +92,7 @@
       </div>
    </div>
 
-   <script src="./JS/index.js"></script>
+   <script type="module" src="./JS/App.js"></script>
    <script src="https://kit.fontawesome.com/7a65fe82ac.js" crossorigin="anonymous"></script>
 </body>
 
